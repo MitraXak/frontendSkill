@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0 0 0;
+
+    h1 {
+        font-weight: 900;
+    }
+
+    .description {
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: 800;
+        max-width: 800px;
+    }
+}
+
+main {
+    .tovar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+
+        div {
+            max-width: 800px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ol {
+            li {
+                color: red;
+                font-size: 20px;
+                margin: 10px 0;
+
+                span {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .contact {
+        background-color: red;
+        color: white;
+        display: flex;
+        justify-content: center;
+
+        p {
+            margin: 10px 0;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        address {
+            margin: 10px 0;
+            font-size: 15px;
+            font-weight: 800;
+        }
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+
+        div {
+            max-width: 800px;
+        }
+
+        .company {
+            font-size: 30px;
+            font-weight: 900;
+            text-align: center;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin: 10px;
+        }
+    }
+}
+
+footer {
+    background-color: rgb(233, 107, 3);
+    color: white;
+    padding: 10px 0 0 0;
+
+    h2 {
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+
+    .call {
+        display: flex;
+        justify-content: center;
+    }
+
+    .client {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        .img {
+            margin: 2px;
+            width: 250px;
+            height: 200px;
+            border: 1px solid black;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .footerunder {
+        height: 25px;
+        background-color: rgb(151, 72, 8);
+    }
+}
